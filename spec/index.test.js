@@ -1,4 +1,4 @@
-import { describe, test } from 'node:test';
+import { test } from 'node:test';
 import Markdown from '../src/index.js';
 
 test('Processes the markdown within an HTML block if its just a class wrapper', function(t) {
