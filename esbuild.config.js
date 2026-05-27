@@ -11,14 +11,14 @@ function config(options) {
 }
 
 await esbuild.build(config({
-  entryPoints: ['./src/index.ts'],
+  entryPoints: ['./src/index.js'],
   format: 'esm',
   outfile: 'lib/index.esm.js',
 }));
 
 await esbuild.build(config({
   stdin: {
-    contents: 'module.exports = require("./src/index.ts").default',
+    contents: 'module.exports = require("./src/index.js").default',
     resolveDir: '.',
   },
   format: 'umd',
