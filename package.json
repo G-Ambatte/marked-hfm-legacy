@@ -37,7 +37,7 @@
   "homepage": "https://github.com/g-ambatte/marked-hfm-legacy.git#readme",
   "dependencies": {
     "less": "^4.6.4",
-    "marked": "^0.3.19"
+    "marked": "^18.0.4"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
