@@ -1,4 +1,5 @@
-import { marked, render, validate } from './markdown.js';
+import M from './markdown';
+const { marked, render, validate } = M;
 
 export default {
   engine: {
